@@ -82,7 +82,7 @@ body {
 }
 
 .cell:nth-child(1) {
-    transform: translate(29px, 32px);
+    transform: translate(30px, 32px);
 }
 
 .cell:nth-child(2) {
@@ -161,11 +161,11 @@ body {
     background-color: #075c6b;
 }
 .mode-indicator {
-    font-family: 'Pacifico', cursive;
-    color: #f34223; 
-    margin: 10px 0; 
-    font-size: 20px; 
-    text-align: center; 
+    font-family: "Pacifico", cursive;
+    color: #f34223;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
 }
 #muteButton {
     font-family: "Pacifico", cursive;
@@ -183,7 +183,7 @@ body {
 #muteButton:hover {
     background-color: #075c6b;
 }
-.go-back  {
+.go-back {
     font-family: "Pacifico", cursive;
     background-color: #126db8;
     color: rgb(241, 238, 238);
