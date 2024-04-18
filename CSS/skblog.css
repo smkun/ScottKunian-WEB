@@ -1,5 +1,5 @@
 body {
-    background-image: url("../Images/bgBlog.png");
+    background-image: url("/ASSETS/bgBlog.png");
     background-size: cover;
     font-family: Arial, sans-serif;
 }

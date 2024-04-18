@@ -1,0 +1,47 @@
+body {
+    background-image: url("/ASSETS/scrapyard.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+}
+
+label,
+span:nth-child(odd) {
+    width: 320px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 15px;
+}
+
+span,
+input {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+.calculator-wrapper {
+    background-color: rgba(182, 181, 181, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 5px;
+    margin-top: 96px;
+    width: fit-content;
+    color: #020202;
+}
+.calculator-wrapper h1 {
+    text-align: center;
+}
+
+.calculator-wrapper label,
+.calculator-wrapper div {
+    text-align: left;
+}
+.calculator-wrapper div > title {
+    margin-left: 20px;
+}
+.result {
+    color: black;
+}

@@ -8,7 +8,7 @@ html {
 }
 
 .bg {
-    background-image: url("../Images/bgMain.png");
+    background-image: url("/ASSETS/bgMain.png");
     height: 100vh; /* Ensures full viewport height coverage */
     background-position: center;
     background-repeat: no-repeat;

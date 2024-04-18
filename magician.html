@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Magician Game</title>
+    <link rel="stylesheet" href="/CSS/magician.css" />
+</head>
+<body>
+    <div class="return-home">
+        <button onclick="window.location.href='faire.html'">Faire Grounds</button>
+    </div>
+    <div class="container">
+        <h1>"Eldran the Cardweaver"</h1>
+        <div id="game">
+            <div id="playerPick">Player's Pick:</div>
+            <div class="deck-container">
+                <div id="deck">
+                    <img src="/ASSETS/cardBack.png" alt="Deck" onclick="pickACard()" style="cursor: pointer" />
+                </div>
+            </div>
+            <button onclick="pickACard()">Pick a Card</button>
+            <div id="magicianPick">
+                Magician's Pick: <span>Click the deck to start</span>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/JS/magician.js"></script>
+</body>
+</html>

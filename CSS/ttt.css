@@ -10,7 +10,7 @@
 body {
     font-family: "Arial", sans-serif;
     background-color: #f0e68c;
-    background-image: url("/Images/tttBG.jpg");
+    background-image: url("/ASSETS/tttBG.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@ body {
     grid-gap: 5px;
     width: 420px;
     height: 420px;
-    background-image: url("/Images/bambooGrid.png");
+    background-image: url("/ASSETS/bambooGrid.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,12 +72,12 @@ body {
     left: 0;
 }
 .cell.coconut {
-    background-image: url("/Images/coconut.png");
+    background-image: url("/ASSETS/coconut.png");
     background-size: cover;
 }
 
 .cell.starfish {
-    background-image: url("/Images/starfish.png");
+    background-image: url("/ASSETS/starfish.png");
     background-size: cover;
 }
 
