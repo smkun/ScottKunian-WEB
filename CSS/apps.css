@@ -21,6 +21,10 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+h2 {
+    text-align: center;
+    color: #535274;
+}
 .entry {
     background-color: rgba(211, 211, 211, 0.8);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -53,4 +57,21 @@ h1 {
 .go-back:hover,
 .game-button:hover {
     background-color: #807575;
+}
+.repo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.repo-item {
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.app-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
